@@ -14,12 +14,16 @@ namespace Logic_Simulator
 {
     public partial class MainForm : Form
     {
+        #region Variables
+
         public List<int> inputs;
         public List<int> outputs;
         public List<LogicRecord> logicRecords;
         public List<string> outputFormula;
 
         Dictionary<int, int> inputSignalsDict;
+
+        #endregion
 
         public MainForm()
         {
